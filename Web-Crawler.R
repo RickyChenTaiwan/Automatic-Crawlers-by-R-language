@@ -59,7 +59,7 @@ for(j in 1:length(url_attr)){
 }
 index
 page.info[index,]
-write.csv(page.info, file = 'C:/Users/RCHEN/Desktop/Rcode/title.txt', row.names = TRUE)
+write.csv(page.info[index,], file = 'C:/Users/RCHEN/Desktop/Rcode/title.txt', row.names = TRUE)
 #grep("^A", year, value=TRUE)
 #grep("^A", year, value=F)
 ##word <- c('abc noboby@stat.berkeley.edu','text with no email','first me@mything.com also you@yourspace.com')
